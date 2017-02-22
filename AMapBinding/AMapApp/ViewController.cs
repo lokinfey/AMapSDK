@@ -1,0 +1,35 @@
+﻿using System;
+
+using UIKit;
+using AMapFoundationKit;
+using MAMapKit;
+
+namespace AMapApp
+{
+	public partial class ViewController : UIViewController
+	{
+		protected ViewController(IntPtr handle) : base(handle)
+		{
+			// Note: this .ctor should not contain any initialization logic.
+		}
+
+		public override void ViewDidLoad()
+		{
+			base.ViewDidLoad();
+			// Perform any additional setup after loading the view, typically from a nib.
+			AMapServices.SharedServices.ApiKey = "fdd52a64c5dbbc985f3b259f08b3c977";
+			AMapServices.SharedServices.EnableHTTPS = true;
+			MAMapView map = new MAMapView();
+			map.Frame = this.View.Bounds;
+			map.SetShowsUserLocation(true);
+			map.SetUserTrackingMode(MAUserTrackingMode.Follow);
+			this.View.AddSubview(map);
+		}
+
+		public override void DidReceiveMemoryWarning()
+		{
+			base.DidReceiveMemoryWarning();
+			// Release any cached data, images, etc that aren't in use.
+		}
+	}
+}

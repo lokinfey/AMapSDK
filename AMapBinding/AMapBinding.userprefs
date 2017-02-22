@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{7918E61B-C505-4C7D-8726-0BC01906FDB1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AMapApp/Info.plist">
+    <Files>
+      <File FileName="AMapBinding.iOS.3D/ApiDefinition.cs" Line="10" Column="19" />
+      <File FileName="AMapBinding.iOS.3D/Structs.cs" Line="176" Column="4" />
+      <File FileName="AMapBinding.iOS/ApiDefinition.cs" Line="11" Column="28" />
+      <File FileName="AMapBinding.iOS/Structs.cs" Line="57" Column="5" />
+      <File FileName="AMapApp/AppDelegate.cs" Line="10" Column="3" />
+      <File FileName="AMapApp/ViewController.cs" Line="5" Column="16" />
+      <File FileName="AMapApp/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AMapApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.7aad0084ff1b1fee1570d76781a12c45b02b916e" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
